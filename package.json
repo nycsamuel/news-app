@@ -1,0 +1,28 @@
+{
+  "name": "news-app",
+  "version": "1.0.0",
+  "description": "news webapp",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nycsamuel/news-app.git"
+  },
+  "author": "Samuel Na",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nycsamuel/news-app/issues"
+  },
+  "homepage": "https://github.com/nycsamuel/news-app#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "dotenv": "^5.0.1",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "morgan": "^1.9.0",
+    "path": "^0.12.7"
+  }
+}
