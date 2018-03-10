@@ -4,7 +4,8 @@
   "description": "news webapp",
   "main": "server.js",
   "engines": {
-    "node": "8.9.4"
+    "node": "8.9.4",
+    "npm": "5.6.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
