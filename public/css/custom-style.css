@@ -1,0 +1,32 @@
+.clear-both {
+  clear: both;
+}
+
+.card {
+  border: 1px solid #337ab7;
+  border-radius: 8px;
+  height: 100%;
+  margin-bottom: 32px;
+  width: 100%;
+}
+
+.card img {
+  border-radius: 8px 8px 0 0;
+  height: 100%;
+  width: 100%;
+}
+
+.card-body {
+  padding: 16px;
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+.text-truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
+  white-space: nowrap;
+}
