@@ -30,7 +30,8 @@ const getNewsWithSelectedSources = function (req, res, next) {
     'time',
     'the-wall-street-journal',
     'the-next-web',
-    'reuters'
+    'reuters',
+    'forbes'
   ];
 
   fetch(`${newsUrl}/everything?language=en&sources=${selectedSources.join(',')}`, {
