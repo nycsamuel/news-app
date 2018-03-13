@@ -34,7 +34,7 @@ const getNewsWithSelectedSources = function (req, res, next) {
     'forbes'
   ];
 
-  fetch(`${newsUrl}/everything?language=en&sources=${selectedSources.join(',')}`, {
+  fetch(`${newsUrl}/everything?language=en&pageSize=100&sources=${selectedSources.join(',')}`, {
     method: 'GET',
     headers: apiHeader,
   })
